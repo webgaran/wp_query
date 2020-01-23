@@ -1,5 +1,7 @@
 # wp_query
+
 $meta_query_args = array(
+
 	'relation' => 'OR', // Optional, defaults to "AND"
 	array(
 		'key'     => '_my_custom_key',
@@ -20,4 +22,5 @@ $meta_query_args = array(
 		)
 	)
 );
+
 $meta_query = new WP_Meta_Query( $meta_query_args );
